@@ -1,0 +1,19 @@
+h1{
+    background-color: aquamarine;
+}
+h1::before{
+    /* content: ' ';
+    color: red; */
+    /* background-image: url(images/IMG_5745.jpeg); */
+    content: url(images/5eaf5e0dcaad1.png);
+    border-radius: 50%;
+    background-size: 2% 2%;
+    
+    /* height: 2px;
+    width: 2px; */
+}
+h1::after{
+    content: 'testing';
+    /* color: red; */
+    background-image: url(images/5eaf5e0dcaad1.png);
+}

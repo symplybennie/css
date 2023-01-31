@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    height: 700px;
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: column-reverse wrap; */
+    /* align-items: baseline; */
+    align-content: flex-start;
+    /* gap: 10px 50px; */
+
+    
+
+}
+.box{
+    
+    background-color: chocolate;
+    width: 200px;
+    /* height: 200px; */
+    margin: 10px;
+    float: left;
+   
+}
+.one{
+    /* align-content: flex-end; */
+    background-color: pink;
+    height: 100px;
+    /* order: 2; */
+    /* flex-shrink: 1; */
+    flex-basis: 5rem;
+    align-self: flex-end;
+}
+.two{
+    background-color: white;
+    height: 150px;
+    /* order: 1;
+    flex-grow: 1; */
+}
+.three{
+    background-color: chartreuse;
+    height: 200px;
+    /* order: 3; */
+    /* align-self: center; */
+}
+/* .four{
+    background-color: aqua;
+    height: 250px;
+}
+.five{
+    background-color: lightblue;
+    height: 160px;
+}
+.six{
+    background-color: gold;
+    height: 150px;
+} */
+/* .flex-container::after{
+    content: "";
+    clear: both;
+    display: block;
+} */
+
+
+
+
+
+
+
+

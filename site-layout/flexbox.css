@@ -1,0 +1,8 @@
+.wrapper{
+    display: flex;
+    background-color: coral;
+}
+.wrapper .item{
+    flex: 1;
+    background-color: aquamarine;
+}

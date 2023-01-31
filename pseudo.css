@@ -1,0 +1,40 @@
+a:link{
+    background-color: aqua;
+    color: red;
+}
+a:visited{
+    background-color: crimson;
+    color: white;
+}
+
+a:active{
+    background-color: darkred;
+    color: aqua;
+}
+input[type="text"]:focus{
+    background-color: brown;
+    color: white ;
+}
+/* first child */
+/* div > p{
+    background-color: aquamarine;
+} */
+div > p:first-child{
+    background-color: aquamarine;
+}
+P::first-letter{
+    background-color: GREEN;
+    font-size: 30px;
+    color: white;
+}
+p::first-line{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+/* p:hover{
+    background-color: blue;
+} */
+p::before{
+    background-color: brown;
+}

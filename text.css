@@ -1,0 +1,52 @@
+
+/* hexadecimal */
+h1{
+    color: #012;
+}
+h2{
+    color: #a00;
+}
+h3{
+    color: #376;
+}
+h4{
+    color: #632;
+}
+h5{
+    color: #b67;
+}
+h6{
+    color: #f56;
+}
+.p1{
+    width: 300px;
+    border: 1px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.p2{
+    width: 300px;
+    border: 1px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.p1:hover{
+    overflow: visible;
+}
+.p3{
+    width: 400px;
+    border: 2px dotted red;
+    word-break: break-all;
+}
+.p4{
+    width: 200px;
+    border: 2px dotted red;
+    word-break: keep-all;
+}
+.p5{
+    word-wrap: break-word;
+    border: 2px solid red;
+    width: 300px;
+}

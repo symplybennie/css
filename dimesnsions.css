@@ -1,0 +1,43 @@
+.div-em-fontsize{
+    font-size: 26px;
+}
+.div-em-fontsize p{
+    font-size: 2em;
+}
+/* .div-em h1{
+    font-size: 64px;
+} */
+
+.p1{
+    width: 75em;
+    border: 2px solid red;
+}
+.p2{
+    width: 1200px; 
+    border: 2px solid red;
+}
+.div-rem h1{
+    font-size: 10rem;
+}
+.div-rem p{
+    font-size: 160px;
+}
+.div-percentage{
+    width: 500px;
+    border: 1px solid green;
+}
+.div-percentage h1{
+    /* width: 75%; */
+    width: 375px;
+    border: 2px solid red;
+}
+.div-viewport{
+    width: 100%;
+    border:2px solid red;
+    height: 900px;
+}
+.div-viewport2{
+    width: 100vw;
+    border: 2px solid green;
+    height: 50vh;
+}

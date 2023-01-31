@@ -1,0 +1,160 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aquamarine;
+}
+#container{
+    background-color: bisque;
+    height: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    /* margin-left: 100%px; */
+}
+/* header */
+header{
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+}
+header h1{
+    text-align: center;
+    /* margin-top: ; */
+    font-size: 40px;
+    padding-top: 90px;
+}
+/* nav */
+nav ul{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+section{
+    height: 800px;
+    width: 100%;
+    background-color: coral;
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: darkolivegreen;
+}
+.div1{
+    float: left;
+    display: inline-block;
+    height: 800px;
+    width: 33.3%;
+    background-color: red;
+}
+.div2{
+    float: left; 
+    height: 800px;
+    width: 33.3%;
+    background-color: pink;
+}
+.div3{
+    float: right; 
+    height: 800px;
+    width: 33.4%;
+    background-color: black;
+}
+/* .one{
+    background-color: greenyellow !important;
+
+}
+.two{
+    background-color: green !important;
+} */
+.div1-child1{
+    width: 100%;
+    height: 266.6px;
+    background-color: blueviolet;
+    /* background-image: url(images/InstaSave\(7\).jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.div1-child1 img{
+    width: 100%;
+    height: 266.6px;
+    object-fit: cover;
+}
+.div1-child2{
+    width: 100%;
+    height: 266.6px;
+    background-color: yellow;
+    /* background-image: url(images/InstaSave\(8\).jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.div1-child3{
+    width: 100%;
+    height: 266.6px;
+    background-color: royalblue;
+    /* background-image: url(images/InstaSave\(9\).jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.div3-child1{
+    width: 100%;
+    height: 88.8px;
+    background-color: cyan;
+}
+.div3-child2{
+    width: 100%;
+    height: 88.8px;
+    background-color: orange;
+    /* background-image: url(images/InstaSave\(10\).jpg);
+    background-position: center;
+    background-size: cover;
+     */
+}
+.div3-child3{
+    width: 100%;
+    height: 88.8px;
+    background-color: saddlebrown;
+    /* background-image: url(images/InstaSave\(7\).jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.child1-1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.child1-2{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.child1-2 .child1-21{
+    height: 33.3%;
+    width: 100%;
+    background-color: darkgreen;
+}
+.child1-2 .child1-22{
+    height: 33.3%;
+    width: 100%;
+    background-color: purple;
+}
+.child1-2 .child1-23{
+    height: 33.3%;
+    width: 100%;
+    background-color: black;
+}

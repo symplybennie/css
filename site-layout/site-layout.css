@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+nav{
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav a:hover{
+    background-color: beige;
+    color: green;
+    /* width: 200px; */
+    padding: 5px;
+}
+nav a:active{
+    color: red;
+}
+.hero h1{
+    text-align: center;
+    font-style: bold;
+}
